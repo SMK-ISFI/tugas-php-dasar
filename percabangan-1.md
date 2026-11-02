@@ -176,3 +176,138 @@ Sebuah tempat fotokopi menetapkan harga Rp500 per lembar. Jika pelanggan memfoto
 7. Hitung total pembayaran dengan mengalikan jumlah lembar fotokopi dan harga per lembar.
 8. Tampilkan total pembayaran pelanggan.
 9. Selesai.
+
+---
+
+## Soal 11 — Menentukan Predikat Nilai Ujian
+
+### Permasalahan
+Seorang guru ingin membuat program untuk menentukan predikat nilai ujian siswa berdasarkan ketentuan berikut.
+
+| Nilai | Predikat |
+|---|---|
+| 90–100 | Sangat Baik |
+| 80–89 | Baik |
+| 70–79 | Cukup |
+| Di bawah 70 | Perlu Belajar Lagi |
+
+Buatlah program JavaScript yang menentukan predikat berdasarkan nilai ujian siswa.
+
+### Algoritma
+1. Mulai.
+2. Tentukan nilai ujian siswa.
+3. Periksa nilai ujian:
+   - Jika nilai minimal 90, tampilkan "Sangat Baik".
+   - Jika tidak, tetapi nilai minimal 80, tampilkan "Baik".
+   - Jika tidak, tetapi nilai minimal 70, tampilkan "Cukup".
+   - Selain kondisi tersebut, tampilkan "Perlu Belajar Lagi".
+4. Selesai.
+
+---
+
+## Soal 12 — Menentukan Biaya Pengiriman Paket
+
+### Permasalahan
+Sebuah jasa ekspedisi menentukan biaya pengiriman berdasarkan berat paket.
+
+| Berat Paket | Biaya Pengiriman |
+|---|---|
+| Maksimal 1 kg | Rp10.000 |
+| Lebih dari 1 kg sampai 3 kg | Rp20.000 |
+| Lebih dari 3 kg sampai 5 kg | Rp30.000 |
+| Lebih dari 5 kg | Rp50.000 |
+
+Buatlah program JavaScript yang menentukan biaya pengiriman berdasarkan berat paket.
+
+### Algoritma
+1. Mulai.
+2. Tentukan berat paket dalam kilogram (berat harus lebih dari 0).
+3. Periksa berat paket:
+   - Jika berat maksimal 1 kg, biaya pengiriman Rp10.000.
+   - Jika tidak, tetapi berat maksimal 3 kg, biaya pengiriman Rp20.000.
+   - Jika tidak, tetapi berat maksimal 5 kg, biaya pengiriman Rp30.000.
+   - Selain kondisi tersebut, biaya pengiriman Rp50.000.
+4. Tampilkan berat paket dan biaya pengiriman.
+5. Selesai.
+
+---
+
+## Soal 13 — Menentukan Diskon Belanja
+
+### Permasalahan
+Sebuah toko memberikan diskon berdasarkan total belanja pelanggan.
+
+| Total Belanja | Diskon |
+|---|---|
+| Rp500.000 atau lebih | 20% |
+| Rp300.000 – Rp499.999 | 15% |
+| Rp100.000 – Rp299.999 | 10% |
+| Di bawah Rp100.000 | Tidak ada diskon |
+
+Buatlah program JavaScript yang menghitung jumlah diskon dan total pembayaran pelanggan.
+
+### Algoritma
+1. Mulai.
+2. Tentukan total belanja pelanggan.
+3. Periksa total belanja:
+   - Jika total belanja minimal Rp500.000, diskon sebesar 20%.
+   - Jika tidak, tetapi total belanja minimal Rp300.000, diskon sebesar 15%.
+   - Jika tidak, tetapi total belanja minimal Rp100.000, diskon sebesar 10%.
+   - Selain kondisi tersebut, tidak mendapatkan diskon.
+4. Hitung potongan harga berdasarkan persentase diskon.
+5. Hitung total pembayaran dengan mengurangi total belanja dengan potongan harga.
+6. Tampilkan total belanja, jumlah diskon, dan total pembayaran.
+7. Selesai.
+
+---
+
+## Soal 14 — Menentukan Kategori Kecepatan Internet
+
+### Permasalahan
+Sebuah aplikasi digunakan untuk menentukan kategori kecepatan internet berdasarkan hasil pengujian dalam satuan Mbps.
+
+| Kecepatan Internet | Kategori |
+|---|---|
+| 100 Mbps atau lebih | Sangat Cepat |
+| 50 sampai kurang dari 100 Mbps | Cepat |
+| 20 sampai kurang dari 50 Mbps | Sedang |
+| Kurang dari 20 Mbps | Lambat |
+
+Buatlah program JavaScript yang menampilkan kategori kecepatan internet berdasarkan hasil pengujian.
+
+### Algoritma
+1. Mulai.
+2. Tentukan kecepatan internet dalam Mbps.
+3. Periksa kecepatan internet:
+   - Jika kecepatan minimal 100 Mbps, tampilkan "Sangat Cepat".
+   - Jika tidak, tetapi kecepatan minimal 50 Mbps, tampilkan "Cepat".
+   - Jika tidak, tetapi kecepatan minimal 20 Mbps, tampilkan "Sedang".
+   - Selain kondisi tersebut, tampilkan "Lambat".
+4. Selesai.
+
+---
+
+## Soal 15 — Menentukan Tarif Parkir Kendaraan
+
+### Permasalahan
+Sebuah tempat parkir menerapkan tarif berdasarkan lamanya kendaraan diparkir.
+
+| Durasi Parkir | Tarif |
+|---|---|
+| Maksimal 1 jam | Rp3.000 |
+| Lebih dari 1 jam sampai 3 jam | Rp5.000 |
+| Lebih dari 3 jam sampai 5 jam | Rp8.000 |
+| Lebih dari 5 jam | Rp12.000 |
+
+Buatlah program JavaScript yang menentukan biaya parkir berdasarkan durasi kendaraan diparkir.
+
+### Algoritma
+1. Mulai.
+2. Tentukan durasi parkir kendaraan dalam jam (durasi harus lebih dari 0).
+3. Periksa durasi parkir:
+   - Jika durasi maksimal 1 jam, tarif parkir Rp3.000.
+   - Jika tidak, tetapi durasi maksimal 3 jam, tarif parkir Rp5.000.
+   - Jika tidak, tetapi durasi maksimal 5 jam, tarif parkir Rp8.000.
+   - Selain kondisi tersebut, tarif parkir Rp12.000.
+4. Tampilkan durasi parkir dan total biaya yang harus dibayar.
+5. Selesai.
